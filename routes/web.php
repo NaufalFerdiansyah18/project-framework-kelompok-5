@@ -10,3 +10,6 @@ Route::get('/ketua', function () {
     return view('ketua');
 });
 
+Route::get('/Anggota', function () {
+    return view('Anggota');
+});
